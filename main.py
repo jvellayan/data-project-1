@@ -15,3 +15,12 @@ df["Price per room"] = df["Price"]/df["Rooms"]
 # add a column that lists price landsize
 df["Price landsize"] = df["Price"]/df["Landsize"]
 
+# get rid of a few useless columns
+del df['Method']
+del df['CouncilArea']
+del df['Bedroom2']
+
+# get total number of columns
+print("New number of columns after adding and deleting columns: ", len(df.columns))
+
+df.to_json("data/melb_data.json")
