@@ -1,8 +1,16 @@
 # import pandas to work with data frames
 import pandas as pd
+import requests
+import io
 
-# read csv into dataframe
-df = pd.read_csv("data/melb_data.csv")
+# get csv from url
+url = 'https://raw.githubusercontent.com/jvellayan/data-project-1/main/data/melb_data.csv'
+
+# Reading the downloaded content and turning it into a pandas dataframe
+download = requests.get(url).content
+
+# convert csv to dataframe
+df = pd.read_csv(io.StringIO(download.decode('utf-8')))
 
 # get total number of records
 print("Total number of records: ", df.shape[0])
@@ -23,4 +31,5 @@ del df['Bedroom2']
 # get total number of columns
 print("New number of columns after adding and deleting columns: ", len(df.columns))
 
+# convert data frame to json
 df.to_json("data/melb_data.json")
