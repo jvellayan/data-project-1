@@ -13,5 +13,5 @@ print("Total number of columns: ", len(df.columns))
 df["Price per room"] = df["Price"]/df["Rooms"]
 
 # add a column that lists price landsize
-df["Price landsize"] = df["Price"]/df["Landsize"
+df["Price landsize"] = df["Price"]/df["Landsize"]
 
