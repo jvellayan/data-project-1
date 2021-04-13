@@ -2,7 +2,7 @@
 import pandas as pd
 
 # read csv into dataframe
-df = pd.read_csv("data/heart.csv")
+df = pd.read_csv("data/melb_data.csv")
 
 # get total number of records
 print("Total number of records: ", df.shape[0])
