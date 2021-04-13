@@ -1,4 +1,7 @@
 # data-project-1
+
+I chose to create an ETL data processor for my project.
+
 ## Extracting Data
 The data used in this pipeline can be found on kaggle at the link below.
 
@@ -35,11 +38,13 @@ Below is the link to my DockerHub repositiories:
 
 **https://hub.docker.com/repository/docker/jlv7cr/jaya**
 
-Here is the link of specific container image for this project: 
+Here is the link of specific one for this project: 
 
 **https://hub.docker.com/layers/145291237/jlv7cr/jaya/5.0/images/sha256-5040953d21337ed7a5ba638c858f3ca844a4e2a2f19ba2d80c64dae05f286eea?context=explore**
 
+## How it Works
 
+The main package I used in python is pandas. I simply used a url to get a csv, and converted this to a panada dataframe. It was easy to transform the data after this. The dockerfile simply installs python and the packages listed in requirements.txt, and then runs my main.py file.
 
 
 
