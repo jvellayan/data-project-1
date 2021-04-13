@@ -9,3 +9,9 @@ print("Total number of records: ", df.shape[0])
 # get total number of columns
 print("Total number of columns: ", len(df.columns))
 
+# add a column that lists price per room
+df["Price per room"] = df["Price"]/df["Rooms"]
+
+# add a column that lists price landsize
+df["Price landsize"] = df["Price"]/df["Landsize"
+
