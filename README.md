@@ -31,7 +31,7 @@ No changes are required to run the ETL. Simply pull the docker image from Docker
 
 Then run the docker image using the below command:
 
-**Docker Command**
+**docker run jlv7cr/jaya:5.0**
 
 Then, you are done!
 
