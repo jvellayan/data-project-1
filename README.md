@@ -25,13 +25,21 @@ The last thing done to transform the data is dropping columns that would not be 
 After the data is cleaned up a bit, it is finally transformed into a JSON format. The JSON is now ready to be loaded into a S3, SQL database or something similar. 
 
 ## How to Use
-No changes are required to run the ETL. Simply pull the docker image from DockerHub: 
-
-**Link**
-
-Then run the docker image using the below command:
+No changes are required to run the ETL. Simply run the docker command and it will be downloaded from DockerHub then run: 
 
 **docker run jlv7cr/jaya:5.0**
 
 Then, you are done!
+
+Below is the link to my DockerHub repositiories: 
+
+**https://hub.docker.com/repository/docker/jlv7cr/jaya**
+
+Here is the link of specific container image for this project: 
+
+**https://hub.docker.com/layers/145291237/jlv7cr/jaya/5.0/images/sha256-5040953d21337ed7a5ba638c858f3ca844a4e2a2f19ba2d80c64dae05f286eea?context=explore**
+
+
+
+
 
