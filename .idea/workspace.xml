@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cb0df665-6ccc-4272-945e-b8f828b90f65" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618340118067</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="commit code">
+      <created>1618340528529</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1618340528529</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -143,10 +149,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit code" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="651" y="132" key="CommitChangelistDialog2" timestamp="1618340117878">
+    <state x="651" y="132" key="CommitChangelistDialog2" timestamp="1618340528307">
       <screen x="0" y="23" width="1792" height="1020" />
     </state>
-    <state x="651" y="132" key="CommitChangelistDialog2/0.23.1792.1020@0.23.1792.1020" timestamp="1618340117878" />
+    <state x="651" y="132" key="CommitChangelistDialog2/0.23.1792.1020@0.23.1792.1020" timestamp="1618340528307" />
     <state x="651" y="132" key="CommitChangelistDialog2/0.23.1792.1022@0.23.1792.1022" timestamp="1618324202714" />
     <state width="1379" height="273" key="GridCell.Tab.0.bottom" timestamp="1618340181596">
       <screen x="0" y="23" width="1792" height="1020" />
